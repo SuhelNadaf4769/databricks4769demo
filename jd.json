@@ -1,0 +1,25 @@
+{
+  "name": "New Job Apr 25, 2026, 08:05 PM",
+  "email_notifications": {
+    "no_alert_for_skipped_runs": false
+  },
+  "webhook_notifications": {},
+  "timeout_seconds": 0,
+  "max_concurrent_runs": 1,
+  "tasks": [
+    {
+      "task_key": "airlineStreamBronze",
+      "run_if": "ALL_SUCCESS",
+      "pipeline_task": {
+        "pipeline_id": "54b17a51-dc0e-48e6-a433-83a29e16db9d"
+      },
+      "timeout_seconds": 0,
+      "email_notifications": {},
+      "disabled": false
+    }
+  ],
+  "queue": {
+    "enabled": true
+  },
+  "performance_target": "PERFORMANCE_OPTIMIZED"
+}
